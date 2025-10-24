@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ECF0F1;
+    color: #34495E;
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background-color: rgb(37, 33, 33);
+    padding: 1rem;
+    width: 30%;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(79, 78, 78, 0.1);
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(25, 21, 21);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #f90000;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #F39C12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
